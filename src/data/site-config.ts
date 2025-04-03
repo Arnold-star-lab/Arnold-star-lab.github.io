@@ -98,7 +98,7 @@ const siteConfig: SiteConfig = {
         title: 'Bienvenido a mi portafolio',
         text: "Soy un estudiante apasionado por la tecnología, con conocimientos en bases de datos, desarrollo web y análisis de datos. Actualmente, trabajo en la implementación de una planta de reciclaje de residuos electrónicos en Cusco. En este sitio comparto mis proyectos, ideas y aprendizajes. ¡Explora mi trabajo en <a href='https://github.com/arnold-star-lab'>GitHub</a>!",
         image: {
-            src: '/hero.jpeg',
+            src: '/base-de-datos.jpg',
             alt: 'Imagen de perfil del creador de Arnold Star Lab'
         },
         actions: [
