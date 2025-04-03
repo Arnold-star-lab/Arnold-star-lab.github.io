@@ -54,7 +54,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Proyectos',
-            href: '/Proyectos'
+            href: '/proyectos'
         },
         {
             text: 'Blog',
@@ -68,7 +68,7 @@ const siteConfig: SiteConfig = {
     footerNavLinks: [
         {
             text: 'Sobre mí',
-            href: '/Sobre mí'
+            href: '/sobre-mí'
         },
         {
             text: 'Contacto',
@@ -96,7 +96,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Bienvenido a mi portafolio',
-        text: "Soy un estudiante apasionado por la tecnología, con conocimientos en bases de datos, desarrollo web y análisis de datos. Actualmente, trabajo en la implementación de una planta de reciclaje de residuos electrónicos en Cusco. En este sitio comparto mis proyectos, ideas y aprendizajes. ¡Explora mi trabajo en <a href='https://github.com/arnold-star-lab'>GitHub</a>",
+        text: "Soy un estudiante apasionado por la tecnología, con conocimientos en bases de datos, desarrollo web y análisis de datos. Actualmente, trabajo en la implementación de una planta de reciclaje de residuos electrónicos en Cusco. En este sitio comparto mis proyectos, ideas y aprendizajes. ¡Explora mi trabajo en <a href='https://github.com/arnold-star-lab'>GitHub</a>!",
         image: {
             src: '/hero.jpeg',
             alt: 'Imagen de perfil del creador de Arnold Star Lab'
@@ -106,7 +106,7 @@ const siteConfig: SiteConfig = {
                 text: 'Contactame',
                 href: '/contacto'
             }
-    
+    ],
     },
     subscribe: {
         title: 'Suscríbete al boletín de Arnold Star Lab',
