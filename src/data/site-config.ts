@@ -39,22 +39,22 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    website: 'https://arnold-star-lab.com',
+    title: 'Arnold Limo',
+    subtitle: 'Innovación y tecnología en la era digital',
+    description: 'Blog y portafolio de un estudiante apasionado por la tecnología, las bases de datos y el desarrollo web.',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/arnold-star-lab-preview.jpg',
+        alt: 'Arnold Star Lab - Blog y Portafolio'
     },
     headerNavLinks: [
         {
-            text: 'Home',
+            text: 'Inicio',
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Proyectos',
+            href: '/Proyectos'
         },
         {
             text: 'Blog',
@@ -67,53 +67,50 @@ const siteConfig: SiteConfig = {
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about'
+            text: 'Sobre mí',
+            href: '/Sobre mí'
         },
         {
-            text: 'Contact',
-            href: '/contact'
+            text: 'Contacto',
+            href: '/contacto'
         },
         {
             text: 'Terms',
             href: '/terms'
         },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+
     ],
-    socialLinks: [
+   socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'GitHub',
+            href: 'https://github.com/arnold-star-lab'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
+            text: 'LinkedIn',
+            href: 'https://linkedin.com/in/arnold-star-lab'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Twitter/X',
+            href: 'https://twitter.com/arnold-star-lab'
         }
     ],
     hero: {
-        title: 'Hola probando probando si no ',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Bienvenido a mi portafolio',
+        text: "Soy un estudiante apasionado por la tecnología, con conocimientos en bases de datos, desarrollo web y análisis de datos. Actualmente, trabajo en la implementación de una planta de reciclaje de residuos electrónicos en Cusco. En este sitio comparto mis proyectos, ideas y aprendizajes. ¡Explora mi trabajo en <a href='https://github.com/arnold-star-lab'>GitHub</a>",
         image: {
             src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'Imagen de perfil del creador de Arnold Star Lab'
         },
         actions: [
             {
-                text: 'Get in Touch',
-                href: '/contact'
+                text: 'Contactame',
+                href: '/contacto'
             }
-        ]
+    
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Suscríbete al boletín de Arnold Star Lab',
+        text: 'Recibe una actualización semanal con las últimas publicaciones y proyectos.',
         formUrl: '#'
     },
     postsPerPage: 8,
