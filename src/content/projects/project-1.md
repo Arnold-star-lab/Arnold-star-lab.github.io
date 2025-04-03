@@ -1,66 +1,77 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: "Proyecto de Desarrollo Web: Sistema de Gestión de Inventarios"
+description: "Desarrollo de un sistema de gestión de inventarios para pequeñas y medianas empresas, utilizando tecnologías modernas de desarrollo web."
+date: "2025-03-01"
+tags: ["Desarrollo Web", "Bases de Datos", "JavaScript", "Node.js", "Frontend"]
 seo:
-  image:
-    src: '/project-1.jpg'
-    alt: Project preview
+  title: "Proyecto de Desarrollo Web - Sistema de Gestión de Inventarios"
+  description: "Un sistema web de gestión de inventarios desarrollado con Node.js y MongoDB para optimizar el control de inventarios en empresas."
+  image: "/project-1.jpg"
 ---
 
-![Project preview](/project-1.jpg)
+## Descripción del Proyecto
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+En este proyecto, desarrollé un **sistema de gestión de inventarios** para pequeñas y medianas empresas (PYMEs) con el fin de optimizar el control de productos, ventas y compras. El sistema permite a los usuarios gestionar el inventario, realizar compras y ventas de productos, y generar reportes detallados en tiempo real.
 
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+Este proyecto fue realizado como parte de mi aprendizaje en **desarrollo web** y **bases de datos**, utilizando tecnologías como **Node.js**, **MongoDB**, **Express.js** y **React.js**. A través de este proyecto, pude mejorar mis habilidades en el desarrollo de aplicaciones full-stack y aprender a implementar soluciones prácticas para la gestión de recursos empresariales.
 
-## Objectives
+### Tecnologías Utilizadas
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+- **Frontend**: React.js, HTML5, CSS3, TailwindCSS
+- **Backend**: Node.js, Express.js
+- **Base de Datos**: MongoDB
+- **Autenticación**: JWT (JSON Web Tokens)
+- **Control de Versiones**: Git, GitHub
 
-## Features
+### Funcionalidades Clave
 
-1. **EcoScore and Challenges:**
+- **Gestión de Productos**: Los usuarios pueden agregar, editar y eliminar productos del inventario.
+- **Ventas y Compras**: Realiza transacciones de ventas y compras con actualización en tiempo real del inventario.
+- **Reportes**: Generación de reportes en PDF de ventas, compras y estado del inventario.
+- **Autenticación de Usuarios**: Solo los usuarios autenticados pueden acceder y modificar los datos.
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+### Proceso de Desarrollo
 
-2. **Personalized Eco-Goals:**
+1. **Planificación y Diseño**: 
+   - Analicé los requerimientos del proyecto y diseñé la arquitectura básica del sistema.
+   - Utilicé **Figma** para diseñar la interfaz de usuario antes de implementarla en React.js.
+   
+2. **Desarrollo del Backend**:
+   - Implementé el backend utilizando **Node.js** y **Express.js**, creando rutas RESTful para gestionar los productos, ventas y reportes.
+   - Utilicé **MongoDB** para almacenar los datos de los productos y las transacciones.
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+3. **Desarrollo del Frontend**:
+   - Creé la interfaz de usuario con **React.js** y utilicé **TailwindCSS** para darle un diseño limpio y moderno.
+   - Implementé la funcionalidad de autenticación con **JWT**, permitiendo a los usuarios iniciar sesión de forma segura.
 
-3. **Green Rewards Marketplace:**
+4. **Pruebas y Despliegue**:
+   - Realicé pruebas unitarias utilizando **Jest** y pruebas de integración con **Postman**.
+   - El sistema fue desplegado en **Heroku** para producción, y los datos se almacenan en **MongoDB Atlas**.
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+### Capturas de Pantalla
 
-4. **Community Hub:**
+![Interfaz de Inicio del Proyecto](../images/proyecto-1.jpg)
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
+### Retos y Soluciones
 
-5. **EcoEducator AI Assistant:**
+Durante el desarrollo, me encontré con varios desafíos, como:
 
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
+- **Manejo de Autenticación**: La implementación de **JWT** para autenticar usuarios fue compleja al principio, pero después de realizar varias pruebas, pude configurar un sistema seguro de inicio de sesión y autorización.
+  
+- **Actualización en Tiempo Real**: Mantener el inventario actualizado en tiempo real fue un desafío. Para ello, utilicé **WebSockets** para notificar a todos los usuarios conectados cuando se realizaban cambios en el inventario.
 
-## Technology Stack
+### Conclusión
 
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+Este proyecto me permitió aplicar mis conocimientos en desarrollo web y bases de datos para crear una solución realista y funcional que puede ser utilizada por pequeñas empresas. Además, me ayudó a mejorar mis habilidades en el trabajo con tecnologías full-stack, como **Node.js** y **MongoDB**, y me dio la oportunidad de aprender más sobre la importancia de las **pruebas** y el **despliegue** de aplicaciones web.
 
-## Outcome
+### Enlaces
 
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
+- **GitHub**: [Ver código fuente en GitHub](https://github.com/arnold-star-lab/sistema-gestion-inventarios)
+- **Demo en vivo**: [Visitar demo en Heroku](https://sistema-gestion-inventarios.herokuapp.com)
 
-## Client Testimonial
+---
 
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
+## Comentarios
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**"Este proyecto fue un desafío técnico increíble. Aprendí mucho sobre cómo construir aplicaciones completas de extremo a extremo, y cómo cada parte de la aplicación debe trabajar junta para crear una experiencia fluida para el usuario."** - Arnold Limo
+
