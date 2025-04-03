@@ -1,64 +1,66 @@
 ---
-title: 'TimeWarp - Travel Agency Website'
-description: Explore the possibilities of time travel through an immersive website for a fictional travel agency, complete with dynamic destination timelines and interactive historical events.
-publishDate: 'Oct 2 2023'
+title: 'Sistema de Gestión de Residuos Electrónicos'
+description: Descubre cómo creamos una plataforma web para la gestión eficiente de residuos electrónicos, que permite el seguimiento de materiales reciclables y facilita la toma de decisiones sustentables.
+publishDate: 'Mar 31 2025'
 isFeatured: true
 seo:
   image:
     src: '/project-2.jpg'
-    alt: Project preview
+    alt: Vista previa del proyecto
 ---
 
-![Project preview](/project-2.jpg)
+![Vista previa del proyecto](/project-2.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Nota:** Este estudio de caso es completamente ficticio y creado con el propósito de mostrar las funcionalidades del [tema Dante Astro.js](https://justgoodui.com/astro-themes/dante/).
 
-**Project Overview:**
-TimeWarp Travel Agency aims to redefine the travel experience by offering an innovative and immersive online platform that explores the concept of time travel. The website combines cutting-edge technology with captivating storytelling to provide users with a unique journey through time.
+## Visión General del Proyecto
 
-> Working with Ethan Donovan was a game-changer for our online presence. Their innovative solutions and attention to detail turned our vision into a reality. The website not only looks fantastic but also functions seamlessly. A true professional who exceeded our expectations!
+El **Sistema de Gestión de Residuos Electrónicos** es una plataforma web destinada a ayudar a las empresas y gobiernos locales en la gestión de residuos electrónicos. Con esta herramienta, los usuarios pueden realizar un seguimiento de los materiales reciclables, coordinar recolecciones y visualizar informes sobre la sostenibilidad de sus operaciones. Este proyecto fue diseñado para apoyar la transición hacia una economía circular en la que los residuos se gestionen de manera más eficiente y responsable.
 
-## Objectives
+> Colaborar con el equipo de desarrollo fue una experiencia increíble. Las soluciones innovadoras y la atención al detalle convirtieron nuestra visión en una plataforma robusta. No solo se ve bien, sino que también es completamente funcional y fácil de usar. Un verdadero éxito.
 
-1. Create a visually stunning and user-friendly website that captures the essence of time travel.
-2. Integrate interactive elements to engage users and make the experience memorable.
-3. Develop a responsive design to ensure a seamless user experience across various devices.
+## Objetivos
 
-## Features
+1. Crear una plataforma interactiva y fácil de usar para gestionar los residuos electrónicos.
+2. Integrar funciones que permitan a los usuarios hacer un seguimiento detallado de los materiales reciclables.
+3. Ofrecer una interfaz accesible y adaptable a diferentes dispositivos para facilitar el uso en terreno y oficina.
 
-1. **Dynamic Destination Timelines:**
+## Características
 
-- Users can explore destinations through dynamic timelines, showcasing significant historical events, cultural developments, and architectural milestones.
-- Interactive sliders allow users to navigate through different eras, providing a visual representation of the historical evolution of each location.
+1. **Panel de Control Interactivo:**
 
-2. **Interactive Historical Events:**
+   - Los usuarios pueden visualizar el estado de los residuos electrónicos en tiempo real a través de un tablero interactivo.
+   - Los informes se actualizan automáticamente y se pueden filtrar según diversos criterios como fecha, tipo de residuo y ubicación.
 
-- Users can click on specific points in the timeline to reveal detailed information about key historical events related to the chosen destination.
-- Rich multimedia content, including images, videos, and articles, provides a comprehensive understanding of each event.
+2. **Seguimiento de Materiales Reciclables:**
 
-3. **Personalized Time Travel Planner:**
+   - Cada tipo de residuo tiene un seguimiento detallado, con información sobre su origen, destino y el impacto ambiental de su reciclaje.
+   - La plataforma ofrece gráficos e informes visuales sobre la cantidad de residuos reciclados y su contribución a la reducción de la huella de carbono.
 
-- A personalized planner feature enables users to create their time travel itineraries by selecting specific eras and destinations.
-- The system suggests thematic experiences, such as attending historical events or meeting famous personalities.
+3. **Solicitud de Recolección de Residuos:**
 
-4. **Time-Port Virtual Reality Experience:**
+   - Los usuarios pueden solicitar recolecciones programadas o de emergencia para deshacerse de dispositivos electrónicos obsoletos o dañados.
+   - El sistema genera recordatorios automáticos para las recolecciones programadas.
 
-- For an extra layer of immersion, users can opt for the Time-Port VR experience, allowing them to virtually step into different time periods and explore the surroundings in 360 degrees.
+4. **Calculadora de Huella de Carbono:**
 
-5. **Chronicle Explorer Blog:**
+   - Una herramienta que calcula la huella de carbono basada en la cantidad de residuos gestionados, proporcionando información sobre las mejoras en sostenibilidad logradas.
+   - La calculadora ofrece recomendaciones para optimizar los procesos de reciclaje y reducir el impacto ambiental.
 
-- A blog section, "Chronicle Explorer," offers in-depth articles and stories about various historical periods and their impact on the destinations featured on the platform.
-- Users can engage with the content, comment, and share their own historical insights.
+5. **Educación Ambiental y Blog:**
 
-## Technology Stack
+   - Se incluye un blog informativo sobre el reciclaje electrónico, con artículos sobre la reducción de desechos, el impacto de los residuos electrónicos en el medio ambiente y las mejores prácticas para empresas y ciudadanos.
+   - Los usuarios pueden compartir sus experiencias y leer historias inspiradoras de otros involucrados en la gestión de residuos electrónicos.
 
-- **Frontend:** [Astro.js](https://astro.build/) for a dynamic and responsive user interface and [Tailwind CSS](https://tailwindcss.com/) for styling.
-- **Backend:** Node.js for handling server-side logic and API integration.
-- **Database:** MongoDB for efficient storage and retrieval of historical data.
-- **VR Integration:** A-Frame framework for creating immersive virtual reality experiences.
+## Stack Tecnológico
 
-## Outcome
+- **Frontend:** [Astro.js](https://astro.build/) para una interfaz de usuario dinámica y moderna, y [Tailwind CSS](https://tailwindcss.com/) para el diseño.
+- **Backend:** Node.js para manejar la lógica del servidor y la integración de APIs.
+- **Base de Datos:** MongoDB para el almacenamiento eficiente y la recuperación de datos relacionados con los residuos.
+- **Análisis de Datos:** Herramientas como **Chart.js** y **D3.js** para la visualización de datos y la creación de gráficos interactivos.
 
-The TimeWarp Travel Agency Website successfully brings the concept of time travel to life, providing users with a captivating and educational experience. The website not only serves as a travel planning tool but also as an interactive platform that encourages users to explore and appreciate the rich tapestry of human history.
+## Resultado
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+El Sistema de Gestión de Residuos Electrónicos ha sido un éxito, proporcionando a las empresas y organizaciones una herramienta práctica para la gestión de sus desechos electrónicos de manera más efectiva y sostenible. Además de mejorar los procesos operativos, la plataforma también promueve una mayor conciencia ambiental y apoya las iniciativas de reciclaje.
+
+**Nota:** Este estudio de caso es completamente ficticio y creado con el propósito de mostrar las funcionalidades del [tema Dante Astro.js](https://justgoodui.com/astro-themes/dante/).
